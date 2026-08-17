@@ -1,5 +1,5 @@
 ## Hi there 👋
-![Profile Views](https://komarev.com/ghpvc/?username=TON_USERNAME&color=blueviolet&style=flat-square&label=PROFILE+VIEWS)
+![Profile Views](https://komarev.com/ghpvc/?username=manirisoa7&color=blueviolet&style=flat-square&label=PROFILE+VIEWS)
 <!--
 **manirisoa7/manirisoa7** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
