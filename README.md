@@ -18,7 +18,7 @@
 
 <div align="center">
 <h3>From seed to bloom</h3>
-<p>Every project starts as a small idea, gets rooted in solid architecture, and grows into something that actually works in production. That's the mindset I bring to every line of code — and every test that makes sure it holds up.</p>
+<p>Every project starts as a small idea, gets rooted in solid architecture, and grows into something that actually works in production. That's the mindset I bring to every line of code, and every test that makes sure it holds up.</p>
 </div>
 
 <br>
@@ -46,7 +46,7 @@
 <br>
 
 <div align="center">
-<p>Nothing blooms in production without being tested first. Functional testing, anomaly tracking, and full user-flow validation are part of how I build — not an afterthought.</p>
+<p>Nothing blooms in production without being tested first. Functional testing, anomaly tracking, and full user-flow validation are part of how I build, not an afterthought.</p>
 </div>
 
 <br>
