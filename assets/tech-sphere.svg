@@ -121,7 +121,7 @@
         <text x="10" y="4" fill="#a78bfa">postgresql</text>
       </g>
       <g transform="translate(18,26)" opacity="0.7">
-        <text x="0" y="0" font-style="italic" fill="#fef3c7">//Tester QA</text>
+        <text x="0" y="0" font-style="italic" fill="#fef3c7">Tester QA</text>
       </g>
     </g>
 
