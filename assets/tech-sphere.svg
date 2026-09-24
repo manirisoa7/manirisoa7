@@ -43,8 +43,8 @@
       <line x1="0" y1="-10" x2="20" y2="-10" stroke="#5cffd9" stroke-width="0.6"/>
       <text x="28" y="-6">HELLO WORLD,</text>
     </g>
-    <text y="40" font-family="'Fraunces', 'Playfair Display', Georgia, serif" font-size="35" font-weight="500" font-style="italic" fill="#e8edff" letter-spacing="-1.5">Manirisoa Jemima</text>
-    <text y="68" font-family="'JetBrains Mono', monospace" font-size="11" fill="#5cffd9" letter-spacing="3">QA ENGINEER · DEVELOPER FULLSTACK</text>
+    <text y="40" font-family="'Fraunces', 'Playfair Display', Georgia, serif" font-size="35" font-weight="500" font-style="italic" fill="#e8edff" letter-spacing="-1.5">Manirisoa  Jemima</text>
+    <text y="68" font-family="'JetBrains Mono', monospace" font-size="11" fill="#5cffd9" letter-spacing="3">QA ENGINEER · FULLSTACK DEVELOPER</text>
 
     <line x1="0" y1="100" x2="380" y2="100" stroke="#1a2238" stroke-width="0.6"/>
 
