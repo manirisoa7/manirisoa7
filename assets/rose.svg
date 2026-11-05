@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" width="400" height="560" role="img" aria-label="Une rose animée">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="75%">
+      <stop offset="0" stop-color="#1a1a2e"/>
+      <stop offset="1" stop-color="#0d0d16"/>
+    </radialGradient>
+    <linearGradient id="p1" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#7a1424"/>
+      <stop offset="1" stop-color="#b81f35"/>
+    </linearGradient>
+    <linearGradient id="p2" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#7a1424"/>
+      <stop offset="1" stop-color="#c2273d"/>
+    </linearGradient>
+    <linearGradient id="p3" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#8f1a2d"/>
+      <stop offset="1" stop-color="#d83a52"/>
+    </linearGradient>
+    <linearGradient id="p4" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#a02037"/>
+      <stop offset="1" stop-color="#e8546b"/>
+    </linearGradient>
+    <linearGradient id="stem" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2a4d24"/>
+      <stop offset="0.5" stop-color="#4f8042"/>
+      <stop offset="1" stop-color="#2a4d24"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5f9650"/>
+      <stop offset="1" stop-color="#2a4d24"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#e8546b" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#e8546b" stop-opacity="0"/>
+    </radialGradient>
+
+    <path id="petal" d="M0,0 C-46,-28 -54,-92 0,-104 C54,-92 46,-28 0,0 Z"/>
+  </defs>
+
+  <style>
+    .sway   { transform-origin: 200px 520px; animation: sway 6s ease-in-out infinite; }
+    .spinA  { transform-origin: 170px 170px; animation: spin 40s linear infinite; }
+    .spinB  { transform-origin: 170px 170px; animation: spin 32s linear infinite reverse; }
+    .spinC  { transform-origin: 170px 170px; animation: spin 26s linear infinite; }
+    .breathe{ transform-origin: 170px 170px; animation: breathe 5s ease-in-out infinite; }
+    .halo   { animation: halo 5s ease-in-out infinite; }
+    .spark  { animation: float 7s ease-in infinite; opacity: 0; }
+    .s2 { animation-delay: 1.8s; } .s3 { animation-delay: 3.6s; } .s4 { animation-delay: 5.2s; }
+    @keyframes sway    { 0%,100% { transform: rotate(-2.5deg); } 50% { transform: rotate(2.5deg); } }
+    @keyframes spin    { to { transform: rotate(360deg); } }
+    @keyframes breathe { 0%,100% { transform: scale(1); } 50% { transform: scale(1.04); } }
+    @keyframes halo    { 0%,100% { opacity: .6; } 50% { opacity: 1; } }
+    @keyframes float   { 0% { transform: translateY(0); opacity: 0; }
+                         15% { opacity: .9; }
+                         100% { transform: translateY(-260px); opacity: 0; } }
+  </style>
+
+  <rect width="400" height="560" fill="url(#bg)"/>
+  <circle class="halo" cx="200" cy="170" r="170" fill="url(#glow)"/>
+
+  <g class="sway">
+    <!-- tige -->
+    <path d="M196,180 C192,300 206,420 200,540 L210,540 C216,420 202,300 206,180 Z" fill="url(#stem)"/>
+    <!-- feuilles -->
+    <path d="M200,400 C150,380 110,385 82,350 C130,345 175,360 200,400 Z" fill="url(#leaf)"/>
+    <path d="M205,330 C255,305 295,310 322,272 C272,270 228,292 205,330 Z" fill="url(#leaf)"/>
+    <!-- petites épines -->
+    <path d="M203,450 l9,-6 l-2,10 Z M198,370 l-9,-6 l2,10 Z" fill="#2a4d24"/>
+
+    <!-- tête de la rose -->
+    <g transform="translate(30 0)" class="breathe">
+      <g class="spinA">
+        <g transform="translate(170 170)">
+          <use href="#petal" fill="url(#p1)" transform="rotate(0)"/>
+          <use href="#petal" fill="url(#p1)" transform="rotate(51)"/>
+          <use href="#petal" fill="url(#p1)" transform="rotate(103)"/>
+          <use href="#petal" fill="url(#p1)" transform="rotate(154)"/>
+          <use href="#petal" fill="url(#p1)" transform="rotate(206)"/>
+          <use href="#petal" fill="url(#p1)" transform="rotate(257)"/>
+          <use href="#petal" fill="url(#p1)" transform="rotate(309)"/>
+        </g>
+      </g>
+      <g class="spinB">
+        <g transform="translate(170 170) scale(.78)">
+          <use href="#petal" fill="url(#p2)" transform="rotate(20)"/>
+          <use href="#petal" fill="url(#p2)" transform="rotate(80)"/>
+          <use href="#petal" fill="url(#p2)" transform="rotate(140)"/>
+          <use href="#petal" fill="url(#p2)" transform="rotate(200)"/>
+          <use href="#petal" fill="url(#p2)" transform="rotate(260)"/>
+          <use href="#petal" fill="url(#p2)" transform="rotate(320)"/>
+        </g>
+      </g>
+      <g class="spinC">
+        <g transform="translate(170 170) scale(.55)">
+          <use href="#petal" fill="url(#p3)" transform="rotate(0)"/>
+          <use href="#petal" fill="url(#p3)" transform="rotate(72)"/>
+          <use href="#petal" fill="url(#p3)" transform="rotate(144)"/>
+          <use href="#petal" fill="url(#p3)" transform="rotate(216)"/>
+          <use href="#petal" fill="url(#p3)" transform="rotate(288)"/>
+        </g>
+      </g>
+      <g class="spinB">
+        <g transform="translate(170 170) scale(.33)">
+          <use href="#petal" fill="url(#p4)" transform="rotate(30)"/>
+          <use href="#petal" fill="url(#p4)" transform="rotate(150)"/>
+          <use href="#petal" fill="url(#p4)" transform="rotate(270)"/>
+        </g>
+      </g>
+      <circle cx="170" cy="170" r="7" fill="#7a1424"/>
+    </g>
+  </g>
+
+  <!-- étincelles -->
+  <g fill="#e8546b">
+    <circle class="spark"    cx="90"  cy="330" r="2.5"/>
+    <circle class="spark s2" cx="300" cy="360" r="2"/>
+    <circle class="spark s3" cx="130" cy="400" r="1.8"/>
+    <circle class="spark s4" cx="270" cy="300" r="2.2"/>
+  </g>
+</svg>
