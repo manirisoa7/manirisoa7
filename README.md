@@ -1,2 +1,4 @@
-https://manirisoa7.github.io/my-rose/rose3d.html
+<p align="center">
+  <img src="assets/rose.svg" alt="Une rose animée" width="360">
+</p>
 
